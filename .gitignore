@@ -1,0 +1,42 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore node modules
+node_modules/
+
+# Ignore build directories
+dist/
+build/
+out/
+
+# Ignore dependency directories
+vendor/
+.env/
+
+# Ignore Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Java files
+*.class
+
+# Ignore IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore other sensitive files
+.env
+*.key
+*.pem
+
+# Ignore operating system files
+*.swp
+*.swo
